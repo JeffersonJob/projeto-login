@@ -6,7 +6,7 @@
     }
     #login{
         width: 85vw;
-
+        height: 295px;
     }
     #login > #imagem{
         float: left;
@@ -43,4 +43,11 @@
     #formulario > p {
         font-size: 1.2em;
     }
+    .botao{
+        transform: translateY(200px);
+    }
+    input[type=submit] {
+        transform: translateY(200px);
+    }
+
 }

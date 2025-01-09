@@ -23,7 +23,7 @@ main {
 #login {
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -55,4 +55,67 @@ main {
 
 #formulario > p {
     font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.campo {
+    background-color: #ae00ff;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 10px;
+    padding: 9px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.campo > label {
+    display: none;
+}
+
+.campo > input {
+    height: 38px;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    width: calc(100% - 0px);
+    transform: translateY(-8px);
+}
+
+.campo > input:focus-within {
+    background-color: #ecbaff;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, white, #ae00ff);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-image: linear-gradient(to bottom, white, #4b1763);
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, white, #ae00ff);
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 8px;
+    color: black;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+form > a.botao:hover {
+    background-image: linear-gradient(to bottom, white, #4b1763);
 }
